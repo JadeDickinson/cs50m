@@ -20,13 +20,12 @@ class Set {
     // This syntax means, when somebody tries to get at this property 'size',
     // actually run this function.
     get size() {
-
+      return this.arr.length
     }
   }
 }
 
 const s = new Set([1,2,3,4,5])
-
 // trying to add the same value should not work.
 s.add(1)
 s.add(1)

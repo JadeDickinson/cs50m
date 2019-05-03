@@ -32,3 +32,9 @@
 // It checks, 'Does this list have a particular value?'
 // You can also check a set's size.
 // -> Set.js
+
+// N.B. JavaScript. actually already has a set class, but what if we wanted
+// to add methods etc?
+// That's where we use other keywords, called extends and super.
+// Extends is the JS way of saying (much like in Java), let's extend this
+// and add to the base class.
