@@ -11,8 +11,8 @@ const uncheckedCountSpan = document.getElementById('unchecked-count')
 
 function newTodo() {
   var todo = document.createElement("li");
-  todo.className = TODO_ITEM;
+  todo.className = classNames["TODO_ITEM"]; // found syntax through trial and error in console
   var target = document.getElementById('todo-list');
-  target.appendChild(todo); // this works but the li has no content so is invisible.
+  target.appendChild(todo);
   console.log(target)
 }
