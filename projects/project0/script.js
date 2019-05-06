@@ -10,5 +10,9 @@ const itemCountSpan = document.getElementById('item-count')
 const uncheckedCountSpan = document.getElementById('unchecked-count')
 
 function newTodo() {
-  alert('New TODO button clicked!')
+  var todo = document.createElement("li");
+  todo.className = TODO_ITEM;
+  var target = document.getElementById('todo-list');
+  target.appendChild(todo); // this works but the li has no content so is invisible.
+  console.log(target)
 }
