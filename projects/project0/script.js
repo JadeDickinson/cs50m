@@ -16,5 +16,5 @@ function newTodo() {
   todo.appendChild(placeholderContent)
   var target = document.getElementById('todo-list')
   target.appendChild(todo)
-  console.log(target)
+  // TODO modify itemCount
 }
