@@ -23,4 +23,6 @@ function newTodo() {
 
   currentCount += 1
   countElement.innerHTML = currentCount
+  // TODO: Making it pretty - add checkbox to each el
+  // TODO: Implement uncheckedCount and figure out how it's meant to be used.
 }
