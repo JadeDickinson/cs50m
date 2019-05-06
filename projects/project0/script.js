@@ -10,11 +10,17 @@ const itemCountSpan = document.getElementById('item-count')
 const uncheckedCountSpan = document.getElementById('unchecked-count')
 
 function newTodo() {
+  // fetch count and assign content to a number
+  const countElement = document.getElementById('item-count')
+  var currentCount = Number(countElement.innerHTML)
+
   var todo = document.createElement("li")
   todo.className = classNames["TODO_ITEM"] // found syntax through trial and error in console
   var placeholderContent = document.createTextNode('New TODO item')
   todo.appendChild(placeholderContent)
   var target = document.getElementById('todo-list')
   target.appendChild(todo)
-  // TODO modify itemCount
+
+  currentCount += 1
+  countElement.innerHTML = currentCount
 }

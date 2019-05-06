@@ -19,6 +19,7 @@ this button to create new TODOs.
   Creation should update item-count
   If item-count is 0, disable deletion
   https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement
+  Empty out to reassign https://plainjs.com/javascript/manipulation/empty-an-elements-content-34/
 ]
 
 Inside [styles.css](/styles.css), you'll find some pre-written CSS for your
