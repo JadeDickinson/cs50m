@@ -25,7 +25,7 @@ The aesthetics of the app is up to you!
 
 ## Getting Started
 First, head to [this link](https://docs.expo.io/versions/latest/introduction/installation.html)
-to install Expo. You'll need the XDE for your computer and the mobile client
+to install Expo. You'll need the XDE (now https://blog.expo.io/expo-cli-2-0-released-a7a9c250e99c) for your computer and the mobile client
 (Expo app) on your phone. If you prefer, you can also install the iOS simulator
 (Macs only) and/or the Android emulator.
 
@@ -56,6 +56,8 @@ You can now open the app on your phone or simulator by clicking one of the butto
 in the top right. To open on your phone, click the `Share` button and scan the
 QR code from the Expo app on your phone. To open in a simulator, click the `Device`
 button and select the simulator into which you want to open your app.
+For running React Native on iPhone use what's now called 'Expo Client'. More info here:
+ https://blog.expo.io/upcoming-limitations-to-ios-expo-client-8076d01aee1a
 
 When you have the app open in your phone or simulator, try opening [`App.js`](/App.js)
 and changing a line. You should see it update on your phone!
